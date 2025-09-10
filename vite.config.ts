@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: '/kathiravan_profile',
+  // base: '/kathiravan_profile',
   plugins: [
     react(),
     mode === 'development' && componentTagger(),
