@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 3000,
   },
-    base: 'https://github.com/kathiravankk/kathiravan_profile' ,
+    base: '/kathiravan_profile/' ,
   plugins: [
     react(),
     mode === 'development' &&
